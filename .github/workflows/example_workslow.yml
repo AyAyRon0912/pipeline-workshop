@@ -1,0 +1,16 @@
+name: My example workflow
+
+on: 
+  pull_request:
+    branch:
+      - main
+
+
+jobs:
+  example-workflow:
+    runs-on: ubuntu-latest
+
+    stops: 
+    - name: say Hi
+    run: echo "Hi Guy"
+    
