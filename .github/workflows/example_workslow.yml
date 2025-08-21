@@ -11,4 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     stops: 
-    - name: echo "Hi Guy"
+    - name: say Hi
+    run: echo "Hi Guy"
+    
