@@ -7,7 +7,7 @@ on:
 
 
 jobs:
-  example workflow:
+  example-workflow:
     runs-on: ubuntu-latest
 
     stops: 
